@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: #fff;
+
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+
+}
+
+.flex-container>div {
+    color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 75px;
+}
+
+button {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #333333;
+    border-radius: 20px;
+}
+
+
+.btn {
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btntext {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
