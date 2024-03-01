@@ -11,16 +11,16 @@ function CountNumber() {
     <>
       <div className="flex-container">
         <div style={{ alignSelf: "center" }}>
-          <button className="btn ">
-            <span className="btntext" onClick={Decrease}>
+          <button className="btn "  onClick={Decrease}>
+            <span className="btntext">
               Decrease
             </span>
           </button>
         </div>
         <div style={{ alignSelf: "center", fontSize: 30 }}>{count}</div>
         <div style={{ alignSelf: "center" }}>
-          <button className="btn ">
-            <span className="btntext" onClick={Increase}>
+          <button className="btn " onClick={Increase}>
+            <span className="btntext" >
               Increase
             </span>
           </button>
