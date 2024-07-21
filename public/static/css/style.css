@@ -47,3 +47,9 @@ button {
     align-items: center;
     font-size: 30px;
 }
+.textShow{
+    align-self: center;
+    font-size: 50px;
+    font-weight: 500;
+
+}
