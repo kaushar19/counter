@@ -42,3 +42,8 @@ button {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.counttextt {
+    align-items: center;
+    font-size: 30px;
+}
