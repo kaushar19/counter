@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./CountNumber.css";
+ 
 function CountNumber({ text }) {
   const [count, setCount] = useState(0);
 
